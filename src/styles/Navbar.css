@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2196f3;
+  color: #fff;
+  padding: 1.5rem 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.navbar-links a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
